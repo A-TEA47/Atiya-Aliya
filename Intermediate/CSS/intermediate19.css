@@ -1,0 +1,13 @@
+.icons {
+    text-align: center;
+}
+
+.icons i {
+    font-size: 40px;
+    margin: 10px;
+    color: #4CAF50;
+}
+
+.icons i:hover {
+    color: #45a049;
+}

@@ -1,0 +1,6 @@
+/* Style header and footer */
+header, footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}

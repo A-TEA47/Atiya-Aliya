@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="intermediate18.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <h1>Modal Popup</h1>
+    <button id="openModal" onclick="document.getElementById('myModal').style.display='block'">Open Modal</button>
+
+    <div id="myModal" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content" onclick="event.stopPropagation();">
+            <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+            <h2>Modal Popup!</h2>
+        </div>
+    </div>
+</body>
+</html>

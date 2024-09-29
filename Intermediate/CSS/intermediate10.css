@@ -1,0 +1,9 @@
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 0;
+}
+
+h1 {
+    text-align: center;
+}

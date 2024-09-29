@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="intermediate20.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <h1>Canvas Drawing</h1>
+    <canvas id="myCanvas" width="400" height="200"></canvas>
+
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#4CAF50";
+        ctx.fillRect(50, 50, 300, 100);
+    </script>
+</body>
+</html>

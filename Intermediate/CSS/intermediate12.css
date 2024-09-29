@@ -1,0 +1,19 @@
+header, nav, section, article, footer {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
